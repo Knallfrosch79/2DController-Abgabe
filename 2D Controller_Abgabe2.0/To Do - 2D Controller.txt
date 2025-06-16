@@ -1,0 +1,9 @@
+To Do - 2D Controller
+
+- Kamera begrenzen 								X
+	- Links, Rechts und Oben						X
+- Start und Finish definieren und funktional machen
+	- Kiste muss auf bestimmten Platz geschoben werden, damit der Exit aktiv wird				
+- Deathzone hinzufügen								X
+	- Unten
+

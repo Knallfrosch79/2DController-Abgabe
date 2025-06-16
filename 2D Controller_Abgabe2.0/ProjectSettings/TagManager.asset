@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - MiddleGround
+  - DeathZone
+  - Exit
   layers:
   - Default
   - TransparentFX
@@ -15,6 +17,7 @@ TagManager:
   - Entity
   - Background
   - Foreground
+  - Exit
   - 
   - 
   - 
@@ -36,11 +39,22 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - DeathZone
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3216136439
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Middleground
+    uniqueID: 530864021
+    locked: 0
+  - name: Player
+    uniqueID: 952182947
+    locked: 0
+  - name: Foreground
+    uniqueID: 741725337
     locked: 0
   m_RenderingLayers:
   - Default
