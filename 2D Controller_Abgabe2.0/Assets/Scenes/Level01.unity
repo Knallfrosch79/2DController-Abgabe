@@ -261,6 +261,7 @@ GameObject:
   m_Component:
   - component: {fileID: 277837874}
   - component: {fileID: 277837873}
+  - component: {fileID: 277837875}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -298,6 +299,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &277837875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277837872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85de7d619eeeaf74aab4c1d76807c35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerRb: {fileID: 1079114073}
+  cinemachineCam: {fileID: 817684847}
+  followComponent: {fileID: 817684849}
+  fallThreshold: -1
+  fallOffset: {x: 0.3, y: -3, z: -10}
+  normalOffset: {x: 0.3, y: 1.6, z: -10}
+  lerpSpeed: 5
 --- !u!1 &331594415
 GameObject:
   m_ObjectHideFlags: 0
@@ -1480,7 +1500,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
